@@ -1,0 +1,81 @@
+body {
+  color: $textblue;
+  line-height: $base-line-height;
+  background-color: $dark-gray;
+}
+
+
+pre {
+  line-height: 1.6em;
+}
+
+.wrapper {
+  @include outer-container;
+}
+
+header {
+  @include clearfix;
+  background-color: #fff;
+  background-image: url('/assets/images/site-header.jpg');
+  height: 172px;
+
+  .wrapper {
+    @include outer-container;
+    padding: 0.5em 1em;
+  }
+
+  h1 {
+    color: #fff;
+    font-family: "helvetica Neue", "Helvetica", sans-serif;
+    font-weight: 100;
+    line-height: $base-line-height;
+    margin: 0;
+  }
+  h1 > a { 
+    color: #fff;
+  }
+
+  p { 
+    padding: 0;
+    margin: 0;
+  }
+}
+
+section { 
+  @include clearfix;
+  padding: 0.5em 1em;
+  text-align: left;
+
+  &.main-content {
+    @include outer-container;
+    @include span-columns(12);
+    background-color: white;
+    min-height: 20em;
+
+    div {
+      
+      //height: 100%;
+    }
+  }
+}
+
+article {
+  
+}
+
+footer {
+  @include outer-container;
+  background-image: url('/assets/images/site-footer.jpg');
+  height: 440px;
+  padding: 0.5em 0em;
+  display: block;
+  clear: both;
+  
+  .footer-content {
+    @include position(relative, 380px 0 0 0);
+    background-color: $light-gray;
+    
+    p { font-size: .8em;  text-align: center; }
+  }
+  
+}
