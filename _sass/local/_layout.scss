@@ -1,7 +1,8 @@
 body {
   color: $textblue;
   line-height: $base-line-height;
-  background-color: $dark-gray;
+  /*background-color: $dark-gray;*/
+  background-color: #303333;
 }
 
 
@@ -11,13 +12,17 @@ pre {
 
 .wrapper {
   @include outer-container;
+  @include border-style(solid);
+  @include border-width(0 10px);
+  @include border-color(#423838);
 }
 
 header {
   @include clearfix;
-  background-color: #fff;
-  background-image: url('/assets/images/site-header.jpg');
-  height: 172px;
+  background-color: #ccc6c6;
+  background-image: url('/assets/images/site-header.png');
+  background-repeat: no-repeat;
+  height: 200px;
 
   .wrapper {
     @include outer-container;
@@ -39,6 +44,11 @@ header {
     padding: 0;
     margin: 0;
   }
+}
+
+.nav-wrapper {
+  padding: 0 17px;
+  background: #423838;
 }
 
 section { 
@@ -66,13 +76,11 @@ article {
 footer {
   @include outer-container;
   background-image: url('/assets/images/site-footer.jpg');
-  height: 440px;
   padding: 0.5em 0em;
   display: block;
   clear: both;
   
   .footer-content {
-    @include position(relative, 380px 0 0 0);
     background-color: $light-gray;
     
     p { font-size: .8em;  text-align: center; }
