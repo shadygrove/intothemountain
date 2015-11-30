@@ -1,9 +1,9 @@
-# martinbour.com
+# intothemountainband.com
 This is the web site application for Martin Bour
 To view the live site visit:  
-http://www.martinbour.com  
+http://www.intothemountainband.com  
 or  
-http://shadygrove.github.io/martinbour.com/
+http://shadygrove.github.io/intothemountain/
 
 ### Info
 [Markdown](http://en.wikipedia.org/wiki/Markdown)  
