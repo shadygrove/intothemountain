@@ -7,15 +7,15 @@
     <title>Into The Mountain Band - {{ page.title }}</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
 
-    <link rel="stylesheet" href="/intothemountain/assets/css/styles-mobile.css">
-    <link rel="stylesheet" href="/intothemountain/assets/css/styles-desktop.css" media="(min-width:50em)">
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/styles-mobile.css">
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/styles-desktop.css" media="(min-width:50em)">
     
     <!--[if (lt IE 9) & (!IEMobile)]>
     IE 9 stylesheets here
     <![endif]-->
 
-    <script src="/intothemountain/assets/scripts/jquery-1.11.3.min.js"></script>
-    <script src="/intothemountain/assets/scripts/components/accordion-tabs.js"></script>
+    <script src="{{ site.baseurl }}/assets/scripts/jquery-1.11.3.min.js"></script>
+    <script src="{{ site.baseurl }}/assets/scripts/components/accordion-tabs.js"></script>
   </head>
   </head>
   <body>
@@ -34,6 +34,22 @@
       <script src="/intothemountain/assets/scripts/scale.fix.js"></script>
       
     </div>
+
+    <script type="text/javascript">
+      $(document).ready(function() {
+        var menuToggle = $('#js-mobile-menu').unbind();
+        $('#js-navigation-menu').removeClass("show");
+
+        menuToggle.on('click', function(e) {
+          e.preventDefault();
+          $('#js-navigation-menu').slideToggle(function(){
+            if($('#js-navigation-menu').is(':hidden')) {
+              $('#js-navigation-menu').removeAttr('style');
+            }
+          });
+        });
+      });
+    </script>
 
   </body>
 </html>

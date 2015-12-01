@@ -2,12 +2,20 @@
 # This will either lead to parsing errors, or Jekyll will revert to the default settings. Use spaces instead.
 source: .
 destination: _site
-url: http://martinbour.com
+url: http://localhost:4000/intothemountain/
+
+# Serving
+detach:  false
+port:    4000
+host:    localhost
+baseurl: "/intothemountain" # does not include hostname
+
 sass:
   sass_dir: _sass
 defaults:
   -
     scope:
       path: ""
+      type: "pages"
     values:
       layout: "main"
