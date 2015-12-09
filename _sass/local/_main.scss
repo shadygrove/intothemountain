@@ -1,0 +1,13 @@
+/*  Start with typography 
+ *  Note: base handles fonts and sizes
+ *  We only need to set colors here
+ */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: $headingcolor;
+}

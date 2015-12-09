@@ -10,8 +10,8 @@
 @import "neat/neat";
 @import "variables";
 
+@import "local/third-party";
 @import "local/layout";
-
 @import "local/main";
 
 @import "components/accordion-tabs";
@@ -19,3 +19,4 @@
 @import "components/flashes";
 @import "components/button-group";
 @import "components/footer";
+

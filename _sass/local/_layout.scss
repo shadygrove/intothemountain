@@ -70,7 +70,6 @@ section {
 }
 
 article {
-  
 }
 
 footer {
@@ -85,5 +84,23 @@ footer {
     
     p { font-size: .8em;  text-align: center; }
   }
-  
+}
+
+/* ************ PAGE STYLES *********** */
+.blog-home-content {
+  @include span-columns(8);
+}
+
+.blog-home-sidebar {
+  @include span-columns(4);
+}
+
+.blog-home-blurbs {
+
+}
+.blog-home-blurbs h2 {
+  font-size: 1.6em;
+}
+.blog-home-blurbs h2 > a {
+  color: $headingcolor;
 }
