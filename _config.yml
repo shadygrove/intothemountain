@@ -9,6 +9,7 @@ detach:  false
 port:    4000
 host:    localhost
 baseurl: "/intothemountain" # does not include hostname
+imagespath: "/assets/images/"
 
 sass:
   sass_dir: _sass
@@ -17,5 +18,11 @@ defaults:
     scope:
       path: ""
       type: "pages"
+    values:
+      layout: "main"
+  -
+    scope:
+      path: ""
+      type: "posts"
     values:
       layout: "main"

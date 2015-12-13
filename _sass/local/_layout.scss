@@ -89,6 +89,7 @@ footer {
 /* ************ PAGE STYLES *********** */
 .blog-home-content {
   @include span-columns(8);
+
 }
 
 .blog-home-sidebar {
@@ -96,6 +97,13 @@ footer {
 }
 
 .blog-home-blurbs {
+  h2 {
+    color: blue;
+  }
+
+  .read-more {
+    float: right;
+  }
 
 }
 .blog-home-blurbs h2 {
@@ -103,4 +111,16 @@ footer {
 }
 .blog-home-blurbs h2 > a {
   color: $headingcolor;
+}
+
+
+.the-band { 
+    h2 { clear: both; }
+    img { 
+      margin: 15px;
+    }
+
+    .member-profile {
+      clear: both;
+    }
 }
