@@ -9,7 +9,7 @@ detach:  false
 port:    4000
 host:    localhost
 baseurl: "/intothemountain" # does not include hostname
-basepath: "/intothemountain/"
+basepath: "/"
 imagespath: "assets/images/"
 gallerypath: "assets/gallery/"
 csspath: "assets/css/"
