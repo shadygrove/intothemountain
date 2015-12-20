@@ -13,6 +13,7 @@ basepath: "/"
 imagespath: "assets/images/"
 gallerypath: "assets/gallery/"
 csspath: "assets/css/"
+scriptspath: "assets/scripts/"
 
 sass:
   sass_dir: _sass
