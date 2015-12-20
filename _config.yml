@@ -12,6 +12,7 @@ baseurl: "/intothemountain" # does not include hostname
 basepath: "/intothemountain/"
 imagespath: "assets/images/"
 gallerypath: "assets/gallery/"
+csspath: "assets/css/"
 
 sass:
   sass_dir: _sass
