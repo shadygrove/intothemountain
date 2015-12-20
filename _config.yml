@@ -8,7 +8,7 @@ url: http://www.intothemountainband.com
 detach:  false
 port:    4000
 host:    localhost
-baseurl: "" # does not include hostname
+baseurl: "" # config.yml default variable. does not include hostname
 basepath: "/"
 imagespath: "assets/images/"
 gallerypath: "assets/gallery/"
