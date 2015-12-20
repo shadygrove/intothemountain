@@ -19,10 +19,10 @@ pre {
 
 header {
   @include clearfix;
-  background-color: #ccc6c6;
-  background-image: url('../images/site-header.png');
+  background-color: #eee;
+  background-image: url('../images/header-transparent.png');
   background-repeat: no-repeat;
-  height: 200px;
+  height: 160px;
 
   .wrapper {
     @include outer-container;
@@ -70,7 +70,6 @@ section {
 }
 
 article {
-  
 }
 
 footer {
@@ -85,5 +84,59 @@ footer {
     
     p { font-size: .8em;  text-align: center; }
   }
-  
+}
+
+/* ************ PAGE STYLES *********** */
+.blog-home-content {
+  @include span-columns(8);
+
+}
+
+.blog-home-sidebar {
+  @include span-columns(4);
+}
+
+.blog-home-blurbs {
+  h2 {
+    color: blue;
+  }
+
+  .read-more {
+    float: right;
+  }
+
+}
+.blog-home-blurbs h2 {
+  font-size: 1.6em;
+}
+.blog-home-blurbs h2 > a {
+  color: $headingcolor;
+}
+
+
+.the-band { 
+
+    .member-profile {
+      @include row();
+
+      img {
+        float: right;
+        margin-right: 0;
+        margin-top: 0;
+        margin-left: 20px;
+      }
+
+      margin-bottom: 15px;
+    }
+
+    .member-profile-alt {
+      @include row();
+      img {
+        float: left;
+        margin-left: 0;
+        margin-top: 0;
+        margin-right: 20px;
+      }
+      margin-bottom: 15px;
+    }
 }

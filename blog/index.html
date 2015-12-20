@@ -1,16 +1,23 @@
 ---
-title: Blog
+title: Into The Mountain Blog
 ---
 
-<p>We're currently working on some songs that are straight from your grandparents hymn books, and we're putting our own spin on them. We hope to release them soon. Until then we'll keep you posted of upcoming gigs and share some videos. Thanks for all the love!</p>
+<div class="blog-home-content">
+	<p>We're currently working on some songs that are straight from your grandparents hymn books, and we're putting our own spin on them. We hope to release them soon. Until then we'll keep you posted of upcoming gigs and share some videos. Thanks for all the love!</p>
 
-<section>
-	<ul>
-	{% for post in site.posts %}
-	  <li>
-	    <a href="{{ post.url }}">{{ post.title }}</a>
-	    {{ post.excerpt }}
-	  </li>
-	{% endfor %}
-	</ul>
-</section>
+	<div class="blog-home-blurbs">
+		{% for post in site.posts %}
+		  <p>
+		    <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+		    {{ post.excerpt }}
+		  </p>
+		  <div class="read-more">
+		  	... <a href="{{ site.baseurl }}{{ post.url }}">read more</a>
+		  </div>
+		{% endfor %}
+	</div>
+</div>
+
+<div class="blog-home-sidebar">
+	<div class="fb-page" data-href="https://www.facebook.com/intothemountainband" data-small-header="false" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="false" data-show-posts="true"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/intothemountainband"><a href="https://www.facebook.com/intothemountainband">Into the Mountain</a></blockquote></div></div>
+</div>
