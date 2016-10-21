@@ -7,6 +7,55 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "_layouts/main.html",
+			"settings":
+			{
+				"buffer_size": 2364,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "albums/index.html",
+			"settings":
+			{
+				"buffer_size": 204,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_config.yml",
+			"settings":
+			{
+				"buffer_size": 676,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "about/index.html",
+			"settings":
+			{
+				"buffer_size": 3368,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "<iframe width=\"100%\" height=\"166\" scrolling=\"no\" frameborder=\"no\" src=\"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/245516453&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false\"></iframe>",
+			"settings":
+			{
+				"buffer_size": 289,
+				"line_ending": "Unix",
+				"name": "<iframe width=\"100%\" height=\"166\" scrolling=\"no\" f"
+			}
+		},
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 2116,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -19,7 +68,7 @@
 	},
 	"console":
 	{
-		"height": 0.0
+		"height": 125.0
 	},
 	"distraction_free":
 	{
@@ -32,12 +81,28 @@
 	},
 	"file_history":
 	[
+		"/Users/development/Documents/github/intothemountain/site/_layouts/main.html",
+		"/Users/development/Documents/github/intothemountain/site/_config.yml",
+		"/Users/development/Documents/github/intothemountain/site/index.html",
+		"/Users/development/Documents/github/intothemountain/site/about/index.html",
+		"/Users/development/Documents/github/intothemountain/site/_includes/footer.html",
 		"/Users/development/Documents/github/intothemountain/site/_sass/local/_layout.scss",
+		"/Users/development/Documents/github/intothemountain/site/photos/index.html",
+		"/Users/development/Documents/github/intothemountain/site/_sass/local/_main.scss",
+		"/Users/development/Documents/github/intothemountain/site/_posts/2015-12-08-Website-Live.md",
+		"/Users/development/Documents/github/intothemountain/site/README.md",
+		"/Users/development/Documents/github/intothemountain/site/CNAME",
 		"/Users/development/Documents/github/intothemountain/site/_includes/header.html",
+		"/Users/development/Documents/github/intothemountain/site/albums/index.html",
+		"/Users/development/Documents/github/intothemountain/site/_sass/base/_variables.scss",
 		"/Users/development/Documents/github/intothemountain/site/blog/index.html",
-		"/Users/development/Documents/github/intothemountain/site/contact/index.html",
-		"/Users/development/Documents/github/intothemountain/site/assets/css/styles-mobile.scss",
 		"/Users/development/Documents/github/intothemountain/site/_sass/_variables.scss",
+		"/Users/development/Documents/github/intothemountain/site/assets/css/styles-mobile.scss",
+		"/Users/development/Documents/github/intothemountain/site/_sass/local/_third-party.scss",
+		"/Users/development/Documents/github/intothemountain/site/contact/index.html",
+		"/Users/development/Documents/github/intothemountain/site/_sass/local/third-party.scss",
+		"/Users/development/Documents/github/intothemountain/site/_sass/local/_layout-desktop.scss",
+		"/Users/development/Documents/github/intothemountain/site/_sass/components/_navigation.scss",
 		"/Users/development/Documents/github/intothemountain/_sass/local/_layout.scss",
 		"/Users/development/Documents/github/intothemountain/index.html",
 		"/Users/development/Documents/github/intothemountain/_layouts/main.html"
@@ -75,8 +140,171 @@
 	"groups":
 	[
 		{
+			"selected": 5,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "_layouts/main.html",
+					"settings":
+					{
+						"buffer_size": 2364,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								832,
+								832
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 232.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "albums/index.html",
+					"settings":
+					{
+						"buffer_size": 204,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5,
+								5
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "_config.yml",
+					"settings":
+					{
+						"buffer_size": 676,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								289,
+								289
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/YAML/YAML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "about/index.html",
+					"settings":
+					{
+						"buffer_size": 3368,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1794,
+								1794
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 405.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"settings":
+					{
+						"buffer_size": 289,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								289,
+								0
+							]
+						],
+						"settings":
+						{
+							"auto_name": "<iframe width=\"100%\" height=\"166\" scrolling=\"no\" f",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 2116,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								54,
+								54
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -86,7 +314,7 @@
 	},
 	"input":
 	{
-		"height": 0.0
+		"height": 31.0
 	},
 	"layout":
 	{

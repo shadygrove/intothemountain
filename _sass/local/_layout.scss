@@ -86,6 +86,42 @@ footer {
 }
 
 /* ************ PAGE STYLES *********** */
+.album-header {
+  @include clearfix;
+
+  .album-header-img {
+    @include span-columns(4);
+  }
+
+  .album-header-content {
+    @include span-columns(8);
+    @include outer-container();
+
+    div {
+      &.ordercd {
+        @include span-columns(4 of 8);
+      }
+
+      &.itunes {
+        @include span-columns(4 of 8);
+      }
+    }
+    
+  }
+  
+}
+
+.album-content {
+  @include clearfix;
+}
+
+
+
+
+.album-sidebar {
+  @include span-columns(4);
+}
+
 .blog-home-content {
   @include span-columns(8);
 
