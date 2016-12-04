@@ -1,23 +1,33 @@
-.album-header {
-  @include clearfix;
+section {
+  div {
+    &.album-header {
+      @include clearfix;
 
-  .album-header-img {
-    @include span-columns(4);
-  }
-
-  .album-header-content {
-    @include span-columns(8);
-
-    div {
-      &.ordercd {
-        @include span-columns(4 of 8);
+      .album-header-img {
+        @include span-columns(4);
       }
 
-      &.itunes {
-        @include span-columns(4 of 8);
+      .album-header-content {
+        @include span-columns(8);
+
       }
     }
-    
+
+    &.album-purchase { 
+      div {
+          &.ordercd {
+            @include span-columns(6);
+          }
+
+          &.itunes {
+            @include span-columns(6);
+          }
+      }
+    }
+
+    &.album-content {
+      
+    }
+
   }
-  
 }
