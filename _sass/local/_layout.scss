@@ -95,15 +95,18 @@ footer {
 
   .album-header-content {
     @include span-columns(8);
-    @include outer-container();
+
+    h3 {
+      margin-top: 20px;
+    }
 
     div {
       &.ordercd {
-        @include span-columns(4 of 8);
+        /* overridden in desktop css */
       }
 
       &.itunes {
-        @include span-columns(4 of 8);
+        /* overridden in destop css */
       }
     }
     
