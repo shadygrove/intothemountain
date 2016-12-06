@@ -100,8 +100,9 @@ article {
           }
       }
     }
-    
+
     &.album-purchase {
+      @include clearfix;
       div {
           &.ordercd {
             /* overridden in desktop css */
