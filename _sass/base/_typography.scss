@@ -25,7 +25,6 @@ p {
 
 a {
   color: $action-color;
-  text-decoration: none;
   transition: color 0.1s linear;
 
   &:active,
@@ -38,6 +37,10 @@ a {
   &:focus {
     outline: none;
   }
+
+  &:hover {
+    color: lighten($action-color, 15%);
+  };
 }
 
 hr {
