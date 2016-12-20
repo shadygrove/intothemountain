@@ -19,9 +19,10 @@ pre {
 
 header {
   @include clearfix;
-  background-color: #eee;
-  background-image: url('../images/header-transparent.png');
+  background-color: #000;
+  background-image: url('../images/header-band.jpg');
   background-repeat: no-repeat;
+  background-position: 50% 10%;
   height: 160px;
 
   h1 {
