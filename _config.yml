@@ -11,6 +11,7 @@ host:    localhost
 baseurl: "" # config.yml default variable. does not include hostname
 basepath: "/"
 imagespath: "assets/images/"
+downloadspath: "assets/downloads/"
 gallerypath: "assets/gallery/"
 csspath: "assets/css/"
 scriptspath: "assets/scripts/"
