@@ -111,10 +111,15 @@ article {
 
           &.itunes {
             /* overridden in destop css */
+            img { 
+              width: 100px; 
+              border: 0; 
+              margin: 0 10px 10px 0;
+            }
           }
 
-          &.album-info {
-            @include clearfix;
+          &.download {
+            /* overridden in desktop css */
           }
       }
         
@@ -138,7 +143,6 @@ article {
     &.album-content {
       @include clearfix;
       margin-top: 20px;
-      
     }
 
     .album-sidebar {
