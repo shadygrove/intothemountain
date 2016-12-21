@@ -13,13 +13,20 @@ section {
       }
     }
 
-    &.album-purchase { 
+    &.album-purchase {
+      border: 1px dashed red;
+      padding: 15px;
+
       div {
           &.ordercd {
             @include span-columns(6);
           }
 
           &.itunes {
+            @include span-columns(6);
+          }
+
+          &.download {
             @include span-columns(6);
           }
       }
