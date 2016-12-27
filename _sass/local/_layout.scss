@@ -25,17 +25,6 @@ header {
   background-position: 50% 10%;
   height: 160px;
 
-  h1 {
-    color: #fff;
-    font-family: "helvetica Neue", "Helvetica", sans-serif;
-    font-weight: 100;
-    line-height: $base-line-height;
-    margin: 0;
-  }
-  h1 > a { 
-    color: #fff;
-  }
-
   p { 
     padding: 0;
     margin: 0;
@@ -96,9 +85,6 @@ article {
 
       .album-header-content {
           @include clearfix;
-          h3 {
-            margin-top: 20px;
-          }
       }
     }
 

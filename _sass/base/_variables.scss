@@ -12,14 +12,15 @@ $heading-line-height: 1.2;
 // Other Sizes
 $base-border-radius: 3px;
 $base-spacing: $base-line-height * 1em;
+$medium-spacing: $base-spacing / 3;
 $small-spacing: $base-spacing / 2;
 $base-z-index: 0;
 
 // Colors
 $blue: #477dca;
-$dark-gray: #333;
-$medium-gray: #999;
-$light-gray: #ddd;
+$dark-gray: #5E5A5B;
+$medium-gray: #80797B;
+$light-gray: #B0A7AA;
 
 // Font Colors
 $base-background-color: #eee;

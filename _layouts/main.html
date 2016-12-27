@@ -7,8 +7,8 @@
     <title>Into The Mountain Band - {{ page.title }}</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
 
-    <link rel="stylesheet" href="{{ site.basepath }}{{ site.csspath }}styles-mobile-v1.css">
-    <link rel="stylesheet" href="{{ site.basepath }}{{ site.csspath }}styles-desktop-v1.css" media="(min-width:50em)">
+    <link rel="stylesheet" href="{{ site.basepath }}{{ site.csspath }}styles-mobile-v1-1.css">
+    <link rel="stylesheet" href="{{ site.basepath }}{{ site.csspath }}styles-desktop-v1-1.css" media="(min-width:50em)">
     
     <!--[if (lt IE 9) & (!IEMobile)]>
     IE 9 stylesheets here
@@ -23,14 +23,12 @@
       {% include header.html %}
 
       <section class="main-content">
-        <div class="social">
-          <div style="float: right; margin-top: 0px;">
-            Facebook: <div class="fb-like" data-href="https://www.facebook.com/intothemountainband/" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>
+          <div class="social">
+            <div style="float: right; margin-top: 0px;">
+              Facebook: <div class="fb-like" data-href="https://www.facebook.com/intothemountainband/" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>
+            </div>
+            <div class="clear-fix"></div>
           </div>
-          <div class="clear-fix"></div>
-         </div>
-
-          <h1>{{ page.title }}</h1>
 
           {{ content }}
         
