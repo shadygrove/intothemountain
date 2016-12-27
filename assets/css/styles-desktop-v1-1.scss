@@ -1,9 +1,14 @@
 ---
 ---
-//@import url(https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700);
+
+/*
+ * styles-desktop starts here
+ */
+
+// Import Bourbon and Neat so we can use the mixins
 @import "bourbon/bourbon";
-@import "base/base";
 @import "neat/neat";
+
 @import "local/layout-desktop";
 
 @import "components/accordion-tabs";

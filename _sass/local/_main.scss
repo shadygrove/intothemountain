@@ -9,7 +9,40 @@ h3,
 h4,
 h5,
 h6 {
-  color: $headingcolor;
+  	color: $headingcolor;
+}
+
+/* Override base/typography header sizes */
+h1 {
+	font-size: $base-font-size * 1.8;
+	margin: $medium-spacing 0 $small-spacing;
+}
+
+h2 {
+	font-size: $base-font-size * 1.6;
+	margin: $small-spacing 0 $small-spacing;
+}
+
+h3 {
+	font-size: $base-font-size * 1.4;
+	margin: $small-spacing 0 $small-spacing;
+}
+
+h4 {
+	font-size: $base-font-size * 1.2;
+}
+
+
+/* Set header font colors and other visual styles */
+h1 {
+	border-bottom: 1px solid $light-gray;
+	a { 
+		color: #fff;
+	}
+}
+
+h2 {
+	color: $medium-gray;
 }
 
 
@@ -18,6 +51,16 @@ img {
   width: 250px;
   border: 2px solid black;
   display: inline-block;
+}
+
+.img-right {
+	margin: 15px 0 15px 15px;
+	float: right;
+}
+
+.img-left {
+	margin: 15px 15px 15px 0;
+	float: left;
 }
 
 .clear-fix {
